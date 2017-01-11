@@ -3,7 +3,7 @@ import txodds
 
 class TestInput(unittest.TestCase):
     def setUp(self):
-        self.filename_in = 'url_list.txt'
+        self.filename_in = 'url_list_test.txt'
         self.link_fixture = [('http//wikipedia.org',
                              '//wikimediafoundation.org/wiki/Privacy_policy',
                              'http://wikimediafoundation.org/wiki/Privacy_policy',),
